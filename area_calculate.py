@@ -1,8 +1,5 @@
-#calculate the area 
-PI = 3.14
-r = float(input(' Please Enter the radius of a circle: '))
-area = PI * r * r
-circumference = 2 * PI * r
-print(" Area Of a Circle = %.2f" %area)
-print(" Circumference Of a Circle = %.2f" %circumference)
-
+months = ("Jan","feb","mar","Apr","may","June","July","Aug","sup","OCt","Nov","Dec")
+birthday = input("type you birthday :")
+index = input(birthday[0:13])
+bd_month = months[index]
+print("your in born", bd_month )
