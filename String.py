@@ -7,4 +7,3 @@ print("country code: ",lot_number[0:3])
 print("product code:", lot_number[4:8])
 print("batch number:", lot_number[8:])
 
-
